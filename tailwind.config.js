@@ -18,7 +18,12 @@ export default {
       VeryLightGrayish: 'hsl(0, 0%, 98%)',
       White: 'hsl(0, 0%, 100%)'
     },
-    extend: {}
+    extend: {
+      backgroundImage: {
+        patternBg: "url('./src/assets/images/bg-intro-desktop.svg')",
+        mockupsBg: "url('./src/assets/images/image-mockups.png')"
+      }
+    }
   },
   plugins: []
 }

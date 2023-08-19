@@ -3,8 +3,8 @@ import logo from '../assets/images/logo.svg'
 
 function Nav () {
   return (
-    <header className='sticky top-0 w-full lg:h-24 bg-White lg:z-50'>
-      <nav className='h-full lg:flex lg:items-center lg:justify-around'>
+    <header className='lg:sticky lg:top-0 lg:w-full lg:h-24 bg-White lg:z-50'>
+      <nav className='h-full lg:px-64 lg:flex lg:items-center lg:justify-between'>
         <img src={logo} alt='Easybank Logo' />
         <ol className='lg:flex lg:gap-8 lg:items-center lg: h-full'>
           <li>

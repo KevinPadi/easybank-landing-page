@@ -5,6 +5,9 @@ import iconOnboarding from './assets/images/icon-onboarding.svg'
 import iconApi from './assets/images/icon-api.svg'
 import Articles from './components/Articles'
 import currencyImg from './assets/images/image-currency.jpg'
+import restaurantImg from './assets/images/image-restaurant.jpg'
+import planeImg from './assets/images/image-plane.jpg'
+import confetiImg from './assets/images/image-confetti.jpg'
 // import pattern from './assets/images/bg-intro-desktop.svg'
 
 import Nav from './components/Nav'
@@ -47,9 +50,9 @@ function App () {
         <h2 className='text-DarkBlue lg:text-4xl'>Latest Articles</h2>
         <div className='lg:flex lg:items-center lg:justify-between'>
           <Articles src={currencyImg} author='Claire Robinson' title='Receive money in any currency with no fees' text="The world is getting smaller and wer'e becoming more mobile. So why should you be forced to only receive money in a single ..." />
-          <Articles src={currencyImg} author='Wilson Hutton' title='Treat yourself without worrying about money' text='Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you...' />
-          <Articles src={currencyImg} author='Wilson Hutton' title='Take your Easybank card wherever you go' text="We want you enjoy your travels. This is why we don't charge any feels on purchases while you're abroad. We'll even show you..." />
-          <Articles src={currencyImg} author='Claire Robinson' title='Our invite-only Beta accounts are now live!' text="The world is getting smaller and wer'e becoming more mobile. So why should you be forced to only receive money in a single ..." />
+          <Articles src={restaurantImg} author='Wilson Hutton' title='Treat yourself without worrying about money' text='Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you...' />
+          <Articles src={planeImg} author='Wilson Hutton' title='Take your Easybank card wherever you go' text="We want you enjoy your travels. This is why we don't charge any feels on purchases while you're abroad. We'll even show you..." />
+          <Articles src={confetiImg} author='Claire Robinson' title='Our invite-only Beta accounts are now live!' text="The world is getting smaller and wer'e becoming more mobile. So why should you be forced to only receive money in a single ..." />
         </div>
       </div>
       <Footer />

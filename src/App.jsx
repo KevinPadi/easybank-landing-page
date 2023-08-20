@@ -18,10 +18,10 @@ function App () {
   return (
     <div className='bg-VeryLightGrayish'>
       <Nav />
-      <section className='lg:flex lg:justify-between lg:items-center lg:w-full lg:h-[500px] lg:mb-56 lg:bg-patternBg lg:bg-no-repeat bg-[750px]'>
-        <div className='lg:space-y-9 lg:w-[990px] lg:p-10 lg:px-64 '>
-          <h1 className='text-DarkBlue lg:font-thin lg:text-6xl'>Next generation digital banking</h1>
-          <p className='text-GrayishBlue lg:text-lg'>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing and much more.</p>
+      <section className='md:flex md:justify-between md:items-center md:w-full md:h-[500px] md:mb-56 md:bg-patternBg md:bg-no-repeat bg-[750px]'>
+        <div className='md:space-y-9 md:w-[990px] md:p-10 md:px-64 '>
+          <h1 className='text-DarkBlue md:font-thin md:text-6xl'>Next generation digital banking</h1>
+          <p className='text-GrayishBlue md:text-lg'>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing and much more.</p>
           <Button />
         </div>
         <div className=''>
@@ -30,15 +30,15 @@ function App () {
         </div>
       </section>
       {/* Cards Container */}
-      <section className='bg-LightGrayish lg:px-64 lg:py-28'>
-        <div className='lg:space-y-5'>
-          <h2 className='text-DarkBlue lg:text-4xl'>Why choose Easybank?</h2>
-          <p className='text-GrayishBlue lg:text-lg'>
+      <section className='bg-LightGrayish md:px-64 md:py-28'>
+        <div className='md:space-y-5'>
+          <h2 className='text-DarkBlue md:text-4xl'>Why choose Easybank?</h2>
+          <p className='text-GrayishBlue md:text-lg'>
             We leverage Open Banking to turn your bank account into your financial hub.
             Control your finances like never before.
           </p>
         </div>
-        <div className='lg:flex lg:mt-44 lg:items-center lg:justify-center lg:gap-8'>
+        <div className='md:flex md:mt-44 md:items-center md:justify-center md:gap-8'>
           <Cards title='Online Banking' text='Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.' src={iconOnline} />
           <Cards title='Simple Budgeting' text="See exactly where your money goes each month. Receive notification when you're close to hitting your limits " src={iconBudgeting} />
           <Cards title='Fast Onboarding' text="We don't do branches. Open your account in minutes online and start taking control of your finances right away" src={iconOnboarding} />
@@ -46,9 +46,9 @@ function App () {
         </div>
       </section>
       {/* Articles Container */}
-      <div className='lg:flex lg:flex-col lg:px-64 lg:py-28 lg:gap-12'>
-        <h2 className='text-DarkBlue lg:text-4xl'>Latest Articles</h2>
-        <div className='lg:flex lg:items-center lg:justify-between'>
+      <div className='md:flex md:flex-col md:px-64 md:py-28 md:gap-12'>
+        <h2 className='text-DarkBlue md:text-4xl'>Latest Articles</h2>
+        <div className='md:flex md:items-center md:justify-between'>
           <Articles src={currencyImg} author='Claire Robinson' title='Receive money in any currency with no fees' text="The world is getting smaller and wer'e becoming more mobile. So why should you be forced to only receive money in a single ..." />
           <Articles src={restaurantImg} author='Wilson Hutton' title='Treat yourself without worrying about money' text='Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you...' />
           <Articles src={planeImg} author='Wilson Hutton' title='Take your Easybank card wherever you go' text="We want you enjoy your travels. This is why we don't charge any feels on purchases while you're abroad. We'll even show you..." />

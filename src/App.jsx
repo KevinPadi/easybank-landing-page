@@ -5,15 +5,16 @@ import iconOnboarding from './assets/images/icon-onboarding.svg'
 import iconApi from './assets/images/icon-api.svg'
 import Articles from './components/Articles'
 import currencyImg from './assets/images/image-currency.jpg'
-import restaurantImg from './assets/images/image-restaurant.jpg'
 import planeImg from './assets/images/image-plane.jpg'
-import confetiImg from './assets/images/image-confetti.jpg'
+import restaurantImg from './assets/images/image-restaurant.jpg'
+import confettiImg from './assets/images/image-confetti.jpg'
 // import pattern from './assets/images/bg-intro-desktop.svg'
 
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Button from './components/Button'
 
+// TODO: cards responsive
 function App () {
   return (
     <div className='bg-VeryLightGrayish'>
@@ -48,11 +49,11 @@ function App () {
       {/* Articles Container */}
       <div className='mb-10 px-6 flex flex-col gap-6 md:px-64 md:py-28 md:gap-12'>
         <h2 className='text-DarkBlue text-4xl text-center md:text-left'>Latest Articles</h2>
-        <div className='space-y-6 md:flex md:items-center md:justify-between'>
-          <Articles src='currencyImg' author='Claire Robinson' title='Receive money in any currency with no fees' text="The world is getting smaller and wer'e becoming more mobile. So why should you be forced to only receive money in a single ..." />
-          <Articles src='restaurantImg' author='Wilson Hutton' title='Treat yourself without worrying about money' text='Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you...' />
-          <Articles src='planeImg' author='Wilson Hutton' title='Take your Easybank card wherever you go' text="We want you enjoy your travels. This is why we don't charge any feels on purchases while you're abroad. We'll even show you..." />
-          <Articles src='confettiImg' author='Claire Robinson' title='Our invite-only Beta accounts are now live!' text="The world is getting smaller and wer'e becoming more mobile. So why should you be forced to only receive money in a single ..." />
+        <div className=' md:flex md:items-center md:justify-between md:gap-4'>
+          <Articles src={currencyImg} author='Claire Robinson' title='Receive money in any currency with no fees' text="The world is getting smaller and wer'e becoming more mobile. So why should you be forced to only receive money in a single ..." />
+          <Articles src={restaurantImg} author='Wilson Hutton' title='Treat yourself without worrying about money' text='Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you...' />
+          <Articles src={planeImg} author='Wilson Hutton' title='Take your Easybank card wherever you go' text="We want you enjoy your travels. This is why we don't charge any feels on purchases while you're abroad. We'll even show you..." />
+          <Articles src={confettiImg} author='Claire Robinson' title='Our invite-only Beta accounts are now live!' text="The world is getting smaller and wer'e becoming more mobile. So why should you be forced to only receive money in a single ..." />
         </div>
       </div>
       <Footer />

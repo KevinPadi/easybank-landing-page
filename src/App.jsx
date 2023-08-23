@@ -18,8 +18,8 @@ function App () {
   return (
     <div className='bg-VeryLightGrayish'>
       <Nav />
-      <section className='flex flex-col -space-y-20 text-center md:flex md:flex-row md:justify-between md:items-center w-full md:h-[500px] md:mb-56 bg-mobilePatternBg bg-no-repeat bg-[-30px_-90px] md:bg-patternBg md:bg-no-repeat md:bg-[750px] md:text-left'>
-        <div className='px-6 space-y-4 md:space-y-9 md:w-[990px] md:p-10 md:px-64 order-2 md:order-1'>
+      <section className='flex flex-col -space-y-20 text-center mb-16 md:flex md:flex-row md:justify-between md:items-center w-full md:h-[500px] md:mb-56 bg-mobilePatternBg bg-no-repeat bg-[-30px_-90px] md:bg-patternBg md:bg-no-repeat md:bg-[750px] md:text-left'>
+        <div className='px-6 space-y-6 md:space-y-9 md:w-[990px] md:p-10 md:px-64 order-2 md:order-1'>
           <h1 className='text-4xl text-DarkBlue md:font-thin md:text-6xl'>Next generation digital banking</h1>
           <p className='text-xs text-GrayishBlue md:text-lg'>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing and much more.</p>
           <Button />

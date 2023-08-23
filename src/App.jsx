@@ -14,13 +14,12 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Button from './components/Button'
 
-// TODO: cards responsive
 function App () {
   return (
     <div className='bg-VeryLightGrayish'>
       <Nav />
-      <section className='px-6 text-center md:flex md:justify-between md:items-center md:w-full md:h-[500px] md:mb-56 md:bg-patternBg md:bg-no-repeat bg-[750px] md:text-left'>
-        <div className='space-y-4 md:space-y-9 md:w-[990px] md:p-10 md:px-64 '>
+      <section className=' text-center md:flex md:justify-between md:items-center md:w-full md:h-[500px] md:mb-56 md:bg-patternBg md:bg-no-repeat bg-[750px] md:text-left'>
+        <div className='px-6 space-y-4 md:space-y-9 md:w-[990px] md:p-10 md:px-64 '>
           <h1 className='text-4xl text-DarkBlue md:font-thin md:text-6xl'>Next generation digital banking</h1>
           <p className='text-xs text-GrayishBlue md:text-lg'>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing and much more.</p>
           <Button />

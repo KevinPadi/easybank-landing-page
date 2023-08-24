@@ -25,8 +25,7 @@ function App () {
           <Button />
         </div>
         <div className='order-1 md:order-2'>
-          {/* <img src={pattern} alt='pattern desing' className='scale-[1.5] relative top-[25px] right-[-140px]' /> */}
-          <img src='./src/assets/images/image-mockups.png' alt='mockups image' className='relative md:top-[140px] md:right-[-80px] md:scale-[1.2] -top-[30px] px-2' />
+          <img src='/src/assets/images/image-mockups.png' alt='mockups image' className='relative md:top-[140px] md:right-[-80px] md:scale-[1.2] -top-[30px] px-2' />
         </div>
       </section>
       {/* Cards Container */}

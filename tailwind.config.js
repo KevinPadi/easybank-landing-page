@@ -20,7 +20,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        patternBg: "url('./src/assets/images/bg-intro-desktop.svg')",
+        patternBg: "url('/src/assets/images/bg-intro-desktop.svg')",
         mobilePatternBg: "url('./src/assets/images/bg-intro-mobile.svg')",
         mockupsBg: "url('./src/assets/images/image-mockups.png')",
         currencyImg: "url('./src/assets/images/image-currency.jpg')",

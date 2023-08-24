@@ -8,7 +8,7 @@ import currencyImg from './assets/images/image-currency.jpg'
 import planeImg from './assets/images/image-plane.jpg'
 import restaurantImg from './assets/images/image-restaurant.jpg'
 import confettiImg from './assets/images/image-confetti.jpg'
-// import pattern from './assets/images/bg-intro-desktop.svg'
+import mockupsImg from './assets/images/image-mockups.png'
 
 import Nav from './components/Nav'
 import Footer from './components/Footer'
@@ -25,7 +25,7 @@ function App () {
           <Button />
         </div>
         <div className='order-1 md:order-2'>
-          <img src='/src/assets/images/image-mockups.png' alt='mockups image' className='relative md:top-[140px] md:right-[-80px] md:scale-[1.2] -top-[30px] px-2' />
+          <img src={mockupsImg} alt='mockups image' className='relative md:top-[140px] md:right-[-80px] md:scale-[1.2] -top-[30px] px-2' />
         </div>
       </section>
       {/* Cards Container */}

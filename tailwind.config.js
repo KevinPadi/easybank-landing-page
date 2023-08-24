@@ -21,8 +21,8 @@ export default {
     extend: {
       backgroundImage: {
         patternBg: "url('/src/assets/images/bg-intro-desktop.svg')",
-        mobilePatternBg: "url('./src/assets/images/bg-intro-mobile.svg')",
-        mockupsBg: "url('./src/assets/images/image-mockups.png')",
+        mobilePatternBg: "url('/src/assets/images/bg-intro-mobile.svg')",
+        mockupsBg: "url('/src/assets/images/image-mockups.png')",
         currencyImg: "url('./src/assets/images/image-currency.jpg')",
         restaurantImg: "url('./src/assets/images/image-restaurant.jpg')",
         planeImg: "url('./src/assets/images/image-plane.jpg')",

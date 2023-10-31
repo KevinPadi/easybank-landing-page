@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/easybank-landing-page-using-react-and-tailwind-css-QqaFG5BVsA)
+- Live Site URL: [GitHub Pages](https://kevinpadi.github.io/easybank-landing-page/)
 
 ## My process
 
